@@ -15,7 +15,7 @@ for (var i = 0; i < lista.length; i++) {
 }
 
 if (accesso) {
-    alert('Puoi partecipare!')
+    alert('Puoi partecipare!');
 } else {
-    alert('Non puoi partecipare!')
+    alert('Non puoi partecipare!');
 }
