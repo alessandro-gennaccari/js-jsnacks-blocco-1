@@ -6,9 +6,9 @@ Esegui questo programma in due versioni, con il for e con il while */
 
 // CON FOR
 var numberList = [];
-
+var number;
 for (var i = 0; i < 5; i++){
-    var number = parseInt(prompt('Con ciclo for e array: Inserisci un numero casuale per 5 volte'))
+    number = parseInt(prompt('Con ciclo for e array: Inserisci un numero casuale per 5 volte'))
     numberList.push(number)
 }
 
@@ -25,10 +25,11 @@ console.log(somma);
 
 // CON WHILE
 var numberList = [];
+var number;
 
 var i = 0;
 while (i < 5) {
-    var number = parseInt(prompt('Con ciclo while e array: Inserisci un numero casuale per 5 volte'))
+    number = parseInt(prompt('Con ciclo while e array: Inserisci un numero casuale per 5 volte'))
     numberList.push(number)
     i++;
 }
@@ -47,18 +48,20 @@ console.log(somma);
 /* ---------------------------------------------------------------------------------- */
 // Senza Array
 var somma = 0;
+var number;
 
 for (var i = 0; i < 5; i++){
-    var number = parseInt(prompt('Con ciclo for: Inserisci un numero casuale per 5 volte'))
+    number = parseInt(prompt('Con ciclo for: Inserisci un numero casuale per 5 volte'))
     somma += number;
 }
 
 console.log(somma);
 
 var somma = 0;
+var number;
 var i = 0;
 while (i < 5){
-    var number = parseInt(prompt('Con ciclo for: Inserisci un numero casuale per 5 volte'))
+    number = parseInt(prompt('Con ciclo for: Inserisci un numero casuale per 5 volte'))
     somma += number;
     i++;
 }
