@@ -19,8 +19,3 @@ if (accesso) {
 } else {
     alert('Non puoi partecipare!')
 }
-
-
-
-
-

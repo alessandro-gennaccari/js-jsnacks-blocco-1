@@ -3,7 +3,6 @@ Il software deve chiedere per 5 volte all’utente di inserire un numero.
 Il programma stampa la somma di tutti i numeri inseriti.
 Esegui questo programma in due versioni, con il for e con il while */
 
-
 // CON FOR
 var numberList = [];
 var number;
@@ -46,7 +45,8 @@ while (i < numberList.length) {
 console.log(somma);
 
 /* ---------------------------------------------------------------------------------- */
-// Senza Array
+
+// Senza Array con for
 var somma = 0;
 var number;
 
@@ -59,6 +59,8 @@ console.log(somma);
 
 /* ---------------------------------------------------------------------------------- */
 
+
+// Senza Array con while
 var somma = 0;
 var number;
 var i = 0;
