@@ -24,7 +24,7 @@ while (scoreCpu < 4 && scoreUser < 4) {
 
     userChoice = prompt('Scegli tra "sasso", "carta", "forbice.').toLowerCase().trim();
     console.log(userChoice);
-    if (userChoice != 'sasso' || userChoice != 'carta' || userChoice != 'forbice') {
+    if (userChoice != 'sasso' && userChoice != 'carta' && userChoice != 'forbice') {
         alert('Qualcosa è andato storto\nDevi fare la scelta corretta')
     } else if (cpuChoice == 'sasso' && userChoice == 'carta') {
         scoreUser++;
